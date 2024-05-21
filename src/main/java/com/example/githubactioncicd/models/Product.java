@@ -1,6 +1,5 @@
 package com.example.githubactioncicd.models;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -18,4 +17,6 @@ public class Product {
     private long id;
     @Column(name = "productName")
     private String name;
+    @Column(name = "productPrice")
+    private double price;
 }
