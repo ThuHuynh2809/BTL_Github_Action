@@ -9,7 +9,6 @@ public class GitHubActionCICDApplication {
     public static void main(String[] args) {
         SpringApplication.run(GitHubActionCICDApplication.class, args);
 
-        aaaa
     }
 
 }
